@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simone Mallamo · Foto, video e drone per hotel e Airbnb</title>
+  <meta name="description" content="Foto, video cinematic e riprese con drone per hotel e Airbnb, in Italia, Spagna e nel mondo.">
+  <meta property="og:title" content="Simone Mallamo · Foto, video e drone per hotel e Airbnb">
+  <meta property="og:description" content="Foto, video cinematic e riprese con drone per hotel e Airbnb, in Italia, Spagna e nel mondo.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0b1e3f">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Manrope:wght@400;500;600;700&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!--
+    FOTO SEGNAPOSTO: tutte le immagini da images.unsplash.com sono foto gratuite di altri autori,
+    usate solo per la bozza. Vanno sostituite con le tue prima di pubblicare il sito.
+  -->
+  <a class="skip-link" href="#contenuto" data-i18n="skip">Vai al contenuto</a>
+
+  <header class="site-header" id="site-header">
+    <a class="logo" href="#top">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 2 38 20 20 38 2 20z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 10 30 20 20 30 10 20z" fill="currentColor"/></svg>
+      <span>Simone Mallamo</span>
+    </a>
+    <nav class="main-nav" data-i18n-aria="navLabel" aria-label="Principale">
+      <a href="#chi-sono" data-i18n="navAbout">Chi sono</a>
+      <a href="#portfolio" data-i18n="navPortfolio">Portfolio</a>
+      <a href="#servizi" data-i18n="navServices">Servizi</a>
+      <a href="#attrezzatura" data-i18n="navGear">Attrezzatura</a>
+      <a href="#dove" data-i18n="navWhere">Dove lavoro</a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-switch" role="group" data-i18n-aria="langLabel" aria-label="Lingua">
+        <button type="button" data-lang="en" aria-label="English">EN</button>
+        <button type="button" data-lang="es" aria-label="Español">ES</button>
+        <button type="button" data-lang="it" aria-label="Italiano">IT</button>
+      </div>
+      <a class="btn btn-small" href="#contatti" data-i18n="navContact">Contattami</a>
+    </div>
+  </header>
+
+  <main id="contenuto">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <!-- FOTO DI APERTURA: la posizione dell'inquadratura si regola con object-position in styles.css (.hero-bg img). -->
+      <div class="hero-bg" data-depth="12">
+        <img src="assets/hero-simone.jpg" alt="Simone Mallamo con il visore del drone davanti alle montagne innevate" fetchpriority="high">
+      </div>
+      <div class="hero-shade"></div>
+
+      <div class="hero-content">
+        <p class="hero-tag" data-i18n="heroTag">Fotografia · Video · Drone per l’ospitalità</p>
+        <h1>
+          <span class="line">Simone</span>
+          <span class="line gold">Mallamo</span>
+        </h1>
+        <p class="lede" data-i18n="heroLede">Foto, video e riprese con drone per resort, hotel, ville e appartamenti vacanze: racconto la tua struttura perché gli ospiti la scelgano.</p>
+        <a class="hero-ig" href="https://www.instagram.com/simonemallamo/" target="_blank" rel="noopener">Instagram · @simonemallamo</a>
+      </div>
+
+      <a class="scroll-hint" href="#chi-sono"><span data-i18n="scroll">Inizia il viaggio</span><i></i></a>
+    </section>
+
+    <!-- CHI SONO -->
+    <section class="about" id="chi-sono">
+      <div class="about-inner">
+        <!-- FOTO DI CHI SONO: un'immagine per luogo. Livelli: la foto, il paese in oro fuso con la foto (tinta + luce + contorno brillante), io davanti
+             (NN-soggetto.png è la foto scontornata).
+             Sagome dei paesi in assets/paesi/ (dati Natural Earth, pubblico dominio). -->
+        <figure class="about-travel reveal from-left">
+          <button type="button" class="jt-frame" data-i18n-aria="placeOpen" aria-label="Foto successiva">
+            <span class="jt-item">
+              <img class="jt-photo" src="assets/chi-sono/01.jpg" alt="" loading="lazy">
+              <img class="jt-country jt-tint is-wide" src="assets/paesi/canarie.svg" alt="" loading="lazy">
+              <img class="jt-country jt-glow is-wide" src="assets/paesi/canarie.svg" alt="" loading="lazy">
+              <img class="jt-country jt-line is-wide" src="assets/paesi/canarie-linea.svg" alt="" loading="lazy">
+              <img class="jt-cut" src="assets/chi-sono/01-soggetto.png" alt="Simone Mallamo alle Isole Canarie" loading="lazy">
+              <span class="jt-name" data-i18n="capCanaries">Isole Canarie</span>
+            </span>
+            <span class="jt-item">
+              <img class="jt-photo" src="assets/chi-sono/02.jpg" alt="" loading="lazy">
+              <img class="jt-country jt-tint" src="assets/paesi/italia.svg" alt="" loading="lazy">
+              <img class="jt-country jt-glow" src="assets/paesi/italia.svg" alt="" loading="lazy">
+              <img class="jt-country jt-line" src="assets/paesi/italia-linea.svg" alt="" loading="lazy">
+              <img class="jt-cut" src="assets/chi-sono/02-soggetto.png" alt="Simone Mallamo in Italia" loading="lazy">
+              <span class="jt-name" data-i18n="capItaly">Italia</span>
+            </span>
+            <span class="jt-item">
+              <img class="jt-photo" src="assets/chi-sono/03.jpg" alt="" loading="lazy">
+              <img class="jt-country jt-tint" src="assets/paesi/messico.svg" alt="" loading="lazy">
+              <img class="jt-country jt-glow" src="assets/paesi/messico.svg" alt="" loading="lazy">
+              <img class="jt-country jt-line" src="assets/paesi/messico-linea.svg" alt="" loading="lazy">
+              <img class="jt-cut" src="assets/chi-sono/03-soggetto.png" alt="Simone Mallamo in Messico" loading="lazy">
+              <span class="jt-name" data-i18n="capMexico">Messico</span>
+            </span>
+            <span class="jt-item">
+              <img class="jt-photo" src="assets/chi-sono/04.jpg" alt="" loading="lazy">
+              <img class="jt-country jt-tint" src="assets/paesi/costa-rica.svg" alt="" loading="lazy">
+              <img class="jt-country jt-glow" src="assets/paesi/costa-rica.svg" alt="" loading="lazy">
+              <img class="jt-country jt-line" src="assets/paesi/costa-rica-linea.svg" alt="" loading="lazy">
+              <img class="jt-cut" src="assets/chi-sono/04-soggetto.png" alt="Simone Mallamo in Costa Rica" loading="lazy">
+              <span class="jt-name">Costa Rica</span>
+            </span>
+            <span class="jt-item">
+              <img class="jt-photo" src="assets/chi-sono/06.jpg" alt="" loading="lazy">
+              <img class="jt-country jt-tint" src="assets/paesi/portogallo.svg" alt="" loading="lazy">
+              <img class="jt-country jt-glow" src="assets/paesi/portogallo.svg" alt="" loading="lazy">
+              <img class="jt-country jt-line" src="assets/paesi/portogallo-linea.svg" alt="" loading="lazy">
+              <img class="jt-cut" src="assets/chi-sono/06-soggetto.png" alt="Simone Mallamo in Portogallo" loading="lazy">
+              <span class="jt-name" data-i18n="capPortugal">Portogallo</span>
+            </span>
+            <span class="jt-item">
+              <img class="jt-photo" src="assets/chi-sono/07.jpg" alt="" loading="lazy">
+              <img class="jt-country jt-tint is-sky" src="assets/paesi/ungheria.svg" alt="" loading="lazy">
+              <img class="jt-country jt-glow is-sky" src="assets/paesi/ungheria.svg" alt="" loading="lazy">
+              <img class="jt-country jt-line is-sky" src="assets/paesi/ungheria-linea.svg" alt="" loading="lazy">
+              <img class="jt-cut" src="assets/chi-sono/07-soggetto.png" alt="Simone Mallamo in Ungheria" loading="lazy">
+              <span class="jt-name" data-i18n="capHungary">Ungheria</span>
+            </span>
+          </button>
+        </figure>
+        <div class="about-copy reveal from-right">
+          <p class="script" data-i18n="aboutScript">Piacere, sono Simone</p>
+          <h2 data-i18n="aboutTitle">Chi sono</h2>
+          <p data-i18n="about1">Sono italiano, vivo alle Canarie e la mia casa è una valigia piena di attrezzatura. Dalla giungla del Costa Rica alle ville sull’oceano delle Canarie, fino agli appartamenti nel cuore dell’Italia: so cosa cerca un viaggiatore, perché lo sono anch’io.</p>
+          <p data-i18n="about2">Quando arrivo in una struttura non la fotografo e basta, la vivo. Seguo la luce del mattino, trovo l’angolo perfetto per la colazione, aspetto il tramonto in terrazza. Poi trasformo quei momenti in foto e video che fanno dire a chi guarda: “voglio essere lì”.</p>
+          <p data-i18n="about3">Per il tuo brand significa contenuti autentici, girati dal punto di vista dell’ospite e pronti per il sito, gli annunci e i social. E significa avere un professionista che parla italiano, inglese e spagnolo e segue il progetto dall’idea alla consegna.</p>
+          <img class="about-sign" src="assets/firma.png" alt="Firma di Simone Mallamo" width="410" height="430" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="portfolio" id="portfolio">
+      <header class="title reveal">
+        <p class="script" data-i18n="portScript">Portfolio</p>
+        <h2 data-i18n="portTitle">Immagini che fanno venire voglia di partire</h2>
+        <p class="title-text" data-i18n="portIntro">Dagli interni alla vista, ogni progetto racconta una struttura attraverso i suoi spazi, la sua atmosfera e ciò che gli ospiti possono vivere.</p>
+      </header>
+      <!-- Cartelle per tipo di struttura: si generano da CATEGORIES e PROJECTS in content.js. -->
+      <div class="folders" id="folders"></div>
+      <!-- Cartoline della cartella aperta: si sfogliano a ventaglio. -->
+      <div class="deck" id="deck" hidden>
+        <div class="deck-head">
+          <p class="script" id="deck-title"></p>
+          <button type="button" class="deck-close" id="deck-close"><span data-i18n="deckClose">Chiudi</span> ×</button>
+        </div>
+        <div class="deck-cards" id="deck-cards"></div>
+        <div class="deck-nav">
+          <button type="button" class="deck-btn" id="deck-prev" data-i18n-aria="prev" aria-label="Precedente">‹</button>
+          <span class="deck-count" id="deck-count"></span>
+          <button type="button" class="deck-btn" id="deck-next" data-i18n-aria="next" aria-label="Successiva">›</button>
+        </div>
+        <p class="deck-hint" data-i18n="deckHint">Sfoglia le cartoline e apri un progetto</p>
+      </div>
+    </section>
+
+    <!-- SERVIZI -->
+    <section class="services" id="servizi">
+      <header class="title reveal">
+        <p class="script" data-i18n="servicesScript">Cosa creo</p>
+        <h2 data-i18n="servicesTitle">Servizi</h2>
+      </header>
+
+      <!-- SERVIZI "IL MIRINO": il selettore in alto cambia modalità e il riquadro prende la forma del servizio.
+           Per mettere una tua clip al posto dell'immagine: sostituisci <img> con un <video> come quelli di Tour e Ads
+           (muted loop playsinline preload="none"): script.js lo fa partire solo quando quella modalità è attiva e visibile. -->
+      <div class="vf-modes reveal" role="tablist">
+        <button type="button" class="vf-mode" role="tab" data-mode="foto" aria-selected="true" data-i18n="modeFoto">Foto</button>
+        <button type="button" class="vf-mode" role="tab" data-mode="tour" aria-selected="false">Tour</button>
+        <button type="button" class="vf-mode" role="tab" data-mode="ads" aria-selected="false">Ads</button>
+        <button type="button" class="vf-mode" role="tab" data-mode="drone" aria-selected="false">Drone</button>
+      </div>
+      <div class="vf-layout">
+        <div class="vf-stage reveal">
+          <div class="vf" id="vf" data-mode="foto">
+            <div class="vf-media" data-for="foto"><img src="assets/progetti/taormina/01.jpg" alt="" loading="lazy"></div>
+            <div class="vf-media" data-for="tour"><video src="assets/servizi/tour.mp4" poster="assets/servizi/tour.jpg" muted loop playsinline preload="none" disablepictureinpicture controlslist="nodownload"></video></div>
+            <div class="vf-media" data-for="ads"><video src="assets/servizi/ads.mp4" poster="assets/servizi/ads.jpg" muted loop playsinline preload="none" disablepictureinpicture controlslist="nodownload"></video></div>
+            <div class="vf-media" data-for="drone"><video src="assets/servizi/drone.mp4" poster="assets/servizi/drone.jpg" muted loop playsinline preload="none" disablepictureinpicture controlslist="nodownload"></video></div>
+
+            <!-- FOTO: mirino della reflex -->
+            <div class="vf-ui vf-ui-foto" data-for="foto" aria-hidden="true">
+              <i class="vf-corner tl"></i><i class="vf-corner tr"></i><i class="vf-corner bl"></i><i class="vf-corner br"></i>
+              <i class="vf-af"></i>
+              <p class="vf-exif"><span>1/125</span><span>f/2.8</span><span>ISO 200</span><span class="vf-raw">RAW</span></p>
+              <i class="vf-flash"></i>
+            </div>
+            <!-- TOUR: schermo cinema -->
+            <div class="vf-ui vf-ui-tour" data-for="tour" aria-hidden="true">
+              <p class="vf-rec"><i></i>REC</p>
+              <p class="vf-tc" id="vf-tc">00:00:00:00</p>
+              <p class="vf-caption">Room tour</p>
+            </div>
+            <!-- ADS: lo smartphone con l'interfaccia dei Reels -->
+            <div class="vf-ui vf-ui-ads" data-for="ads" aria-hidden="true">
+              <i class="vf-notch"></i>
+              <ul class="vf-actions">
+                <li><svg viewBox="0 0 24 24"><path d="M12 21s-7.5-4.6-9.6-9.2C1 8.4 3 5 6.4 5c2 0 3.5 1.1 4.3 2.6h2.6C14.1 6.1 15.6 5 17.6 5 21 5 23 8.4 21.6 11.8 19.5 16.4 12 21 12 21z"/></svg>12,4K</li>
+                <li><svg viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.9 2 11.7c0 2.4 1.1 4.6 3 6.1L4 22l4.6-2.3c1.1.3 2.2.5 3.4.5 5.5 0 10-3.9 10-8.6S17.5 3 12 3z"/></svg>318</li>
+                <li><svg viewBox="0 0 24 24"><path d="M21 3 2 10.5l7.2 2.6L12 21l3.1-6.9L21 3zm-11.4 9.6 8.6-6.4-6.2 7.6-.9 3.3-1.5-4.5z"/></svg>2,1K</li>
+              </ul>
+              <div class="vf-post">
+                <p class="vf-user"><i></i>simonemallamo</p>
+                <p class="vf-text" data-i18n="vfPost">Il tuo prossimo weekend ✨</p>
+                <p class="vf-music" data-i18n="vfAudio">♫ Audio originale</p>
+              </div>
+              <i class="vf-progress"></i>
+              <i class="vf-heart"></i>
+            </div>
+            <!-- DRONE: dati di volo -->
+            <div class="vf-ui vf-ui-drone" data-for="drone" aria-hidden="true">
+              <p class="vf-hud tl">H <b>86.4</b> m &nbsp; D <b>240</b> m</p>
+              <p class="vf-hud tr"><i class="vf-batt"><i></i></i> 78%</p>
+              <p class="vf-hud bl">9.9398° N &nbsp; 85.6626° W</p>
+              <p class="vf-hud br">4K · 30 fps</p>
+              <i class="vf-horizon"></i>
+              <i class="vf-cross"></i>
+            </div>
+          </div>
+        </div>
+        <div class="vf-info">
+        <div class="vf-copy" data-for="foto">
+          <span class="service-num">01</span>
+          <h3 data-i18n="s1Title">Fotografia</h3>
+          <p data-i18n="s1Text">Camere, dettagli e spazi comuni con la luce giusta: immagini che fanno fermare chi scorre gli annunci.</p>
+          <ul>
+          <li data-i18n="s1a">Interni ed esterni</li>
+          <li data-i18n="s1b">Dettagli e atmosfera</li>
+          <li data-i18n="s1c">File pronti per annunci, sito e social</li>
+          </ul>
+          <a class="link-arrow" href="#contatti" data-i18n="serviceCta">Richiedi questo servizio</a>
+        </div>
+        <div class="vf-copy" data-for="tour" hidden>
+          <span class="service-num">02</span>
+          <h3 data-i18n="s2Title">Tour &amp; experience</h3>
+          <p data-i18n="s2Text">Un racconto cinematic che accompagna l'ospite dall'arrivo al momento più bello del soggiorno, anche con me davanti alla camera.</p>
+          <ul>
+          <li data-i18n="s2a">Room tour cinematic</li>
+          <li data-i18n="s2b">Esperienze sul territorio</li>
+          <li data-i18n="s2c">Versione con me in video</li>
+          </ul>
+          <a class="link-arrow" href="#contatti" data-i18n="serviceCta">Richiedi questo servizio</a>
+        </div>
+        <div class="vf-copy" data-for="ads" hidden>
+          <span class="service-num">03</span>
+          <h3 data-i18n="s3Title">Video per adv</h3>
+          <p data-i18n="s3Text">Video brevi e verticali, pensati per catturare l'attenzione nei primi secondi e promuovere offerte e stagioni.</p>
+          <ul>
+          <li data-i18n="s3a">Formati per Reels, TikTok e Shorts</li>
+          <li data-i18n="s3b">Apertura studiata per fermare lo scroll</li>
+          <li data-i18n="s3c">Versioni per diverse campagne</li>
+          </ul>
+          <a class="link-arrow" href="#contatti" data-i18n="serviceCta">Richiedi questo servizio</a>
+        </div>
+        <div class="vf-copy" data-for="drone" hidden>
+          <span class="service-num">04</span>
+          <h3 data-i18n="s4Title">Drone cinematic</h3>
+          <p data-i18n="s4Text">Riprese aeree che mostrano dove ti trovi: il mare, il paesaggio e tutto ciò che rende unica la tua posizione.</p>
+          <ul>
+          <li data-i18n="s4a">Panoramiche della struttura</li>
+          <li data-i18n="s4b">Dintorni e paesaggio</li>
+          <li data-i18n="s4c">Voli pianificati nel rispetto delle regole locali</li>
+          </ul>
+          <a class="link-arrow" href="#contatti" data-i18n="serviceCta">Richiedi questo servizio</a>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COME LAVORIAMO INSIEME -->
+    <section class="journey" id="percorso">
+      <!-- Una foto per ogni passo, nello stesso ordine (1, 2, 3, 4). -->
+      <div class="band-bg journey-photos" data-parallax>
+        <img class="is-active" src="assets/percorso/01-contatto.jpg" alt="" loading="lazy">
+        <img src="assets/percorso/02-progetto.jpg" alt="" loading="lazy">
+        <img src="assets/percorso/03-riprese.jpg" alt="" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1528109966604-5a6a4a964e8d?auto=format&fit=crop&w=2000&q=75" alt="" loading="lazy">
+      </div>
+      <div class="journey-shade"></div>
+      <header class="title light reveal">
+        <p class="script" data-i18n="journeyScript">Come lavoriamo insieme</p>
+        <h2 data-i18n="journeyTitle">Dal primo contatto ai contenuti pronti</h2>
+        <p class="title-text" data-i18n="journeyIntro">Un percorso chiaro, costruito intorno alla tua struttura e ai contenuti di cui hai bisogno.</p>
+      </header>
+      <div class="journey-body">
+      <div class="journey-map">
+        <svg class="route" viewBox="0 0 1000 600" preserveAspectRatio="none" aria-hidden="true">
+          <defs>
+            <mask id="route-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="1000" height="600">
+              <path id="route-reveal" d="M60 520C200 420 220 300 330 330S520 470 600 330 760 120 940 90" fill="none" stroke="#fff" stroke-width="40" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/>
+            </mask>
+          </defs>
+          <path id="route-path" d="M60 520C200 420 220 300 330 330S520 470 600 330 760 120 940 90" fill="none" stroke="#e6c77e" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 12" vector-effect="non-scaling-stroke" mask="url(#route-mask)"/>
+        </svg>
+        <button type="button" class="pin" data-stop="0" data-at="0"><span>1</span></button>
+        <button type="button" class="pin" data-stop="1" data-at="0.36"><span>2</span></button>
+        <button type="button" class="pin" data-stop="2" data-at="0.64"><span>3</span></button>
+        <button type="button" class="pin" data-stop="3" data-at="1"><span>4</span></button>
+      </div>
+      <div class="journey-card" aria-live="polite">
+        <span class="journey-num" id="journey-num">01</span>
+        <div>
+          <h3 id="journey-title"></h3>
+          <p id="journey-text"></p>
+        </div>
+      </div>
+      </div>
+      <ol class="journey-stops" hidden>
+        <li><h3 data-i18n="j1Title">Ci racconti la tua struttura</h3><p data-i18n="j1Text">Mi parli della tua attività, dei tuoi obiettivi e di ciò che vorresti comunicare.</p></li>
+        <li><h3 data-i18n="j2Title">Definiamo il progetto</h3><p data-i18n="j2Text">Scegliamo insieme i contenuti da realizzare, i formati, le date e gli aspetti pratici.</p></li>
+        <li><h3 data-i18n="j3Title">Realizzo le riprese</h3><p data-i18n="j3Text">Vengo nella tua struttura e lavoro agli scatti e ai video concordati, rispettando gli spazi e i ritmi dell’attività.</p></li>
+        <li><h3 data-i18n="j4Title">Ricevi i tuoi contenuti</h3><p data-i18n="j4Text">Seleziono e preparo i materiali previsti dal progetto, pronti per essere utilizzati sui canali concordati.</p></li>
+      </ol>
+    </section>
+
+    <!-- ATTREZZATURA -->
+    <section class="gear" id="attrezzatura">
+      <header class="title reveal">
+        <p class="script" data-i18n="gearScript">Nel mio zaino</p>
+        <h2 data-i18n="gearTitle">Attrezzatura</h2>
+      </header>
+      <!-- Lo zaino si apre quando la sezione entra nello schermo e gli attrezzi escono verso le loro schede. -->
+      <div class="gear-stage" id="gear-stage">
+      <button type="button" class="backpack" id="backpack" data-i18n-aria="gearPack" aria-label="Apri e chiudi lo zaino">
+        <span class="pack-photos">
+          <img class="pack-closed" src="assets/gear/zaino-chiuso.png" alt="" loading="lazy">
+          <span class="pack-open">
+            <img src="assets/gear/zaino-aperto.png" alt="" loading="lazy">
+            <!-- Scomparto "ripulito" con le miniature dell'attrezzatura: da qui parte ogni strumento. -->
+            <span class="pack-slot">
+              <img class="pack-mini" style="--i: 0" src="assets/gear/drone.png" alt="" loading="lazy">
+              <img class="pack-mini" style="--i: 1" src="assets/gear/osmo.png" alt="" loading="lazy">
+              <img class="pack-mini" style="--i: 2" src="assets/gear/iphone.png" alt="" loading="lazy">
+              <img class="pack-mini" style="--i: 3" src="assets/gear/canon.png" alt="" loading="lazy">
+            </span>
+          </span>
+        </span>
+        <span class="pack-hint" data-i18n="gearHint">Tocca lo zaino</span>
+      </button>
+      <ul class="gear-list" role="list">
+        <li class="gear-item">
+          <img class="gear-photo" src="assets/gear/drone.png" alt="Drone Antigravity A1" loading="lazy">
+          <span class="gear-kind" data-i18n="g1Kind">Drone</span>
+          <h3>Antigravity A1</h3>
+          <p data-i18n="g1Text">Riprese aeree cinematic di strutture e paesaggi.</p>
+        </li>
+        <li class="gear-item">
+          <img class="gear-photo" src="assets/gear/osmo.png" alt="DJI Osmo Pocket 3" loading="lazy">
+          <span class="gear-kind" data-i18n="g2Kind">Camera gimbal</span>
+          <h3>DJI Osmo Pocket 3</h3>
+          <p data-i18n="g2Text">Movimenti fluidi per tour e passaggi tra gli ambienti.</p>
+        </li>
+        <li class="gear-item">
+          <img class="gear-photo" src="assets/gear/iphone.png" alt="iPhone Pro Max" loading="lazy">
+          <span class="gear-kind" data-i18n="g3Kind">Smartphone</span>
+          <h3>iPhone Pro Max</h3>
+          <p data-i18n="g3Text">Video verticali e contenuti rapidi per i social.</p>
+        </li>
+        <li class="gear-item">
+          <img class="gear-photo" src="assets/gear/canon.png" alt="Canon EOS 4000D" loading="lazy">
+          <span class="gear-kind" data-i18n="g4Kind">Reflex</span>
+          <h3>Canon EOS 4000D</h3>
+          <p data-i18n="g4Text">Fotografia di interni, esterni e dettagli.</p>
+        </li>
+      </ul>
+      </div>
+    </section>
+
+    <!-- PRIMA / DOPO -->
+    <section class="compare-section">
+      <header class="title reveal">
+        <p class="script" data-i18n="compareScript">Guarda la differenza</p>
+        <h2 data-i18n="compareTitle">Prima e dopo</h2>
+        <p class="title-text" data-i18n="compareText">I tuoi ospiti scelgono con gli occhi. Trascina il cursore e scopri cosa cambia quando la tua struttura viene raccontata nel modo giusto.</p>
+      </header>
+      <!-- Gli esempi (foto o video "prima" e "dopo") sono in content.js, in BEFORE_AFTER. -->
+      <div class="ba-tabs" id="ba-tabs" role="tablist"></div>
+      <div class="compare reveal" id="compare" style="--pos: 50%">
+        <img class="after" id="ba-after" src="assets/prima-dopo/1-dopo.jpg" alt="" loading="lazy">
+        <img class="before" id="ba-before" src="assets/prima-dopo/1-prima.jpg" alt="" loading="lazy">
+        <video class="after" id="ba-after-video" muted loop playsinline preload="none" disablepictureinpicture controlslist="nodownload" hidden></video>
+        <video class="before" id="ba-before-video" muted loop playsinline preload="none" disablepictureinpicture controlslist="nodownload" hidden></video>
+        <span class="compare-tag tag-before"><span class="tag-photo" data-i18n="before">Prima</span><span class="tag-split"><span data-i18n="seeMe">Cosa vedo io</span><small data-i18n="seeMeSub">Girato grezzo</small></span></span>
+        <span class="compare-tag tag-after"><span class="tag-photo" data-i18n="after">Dopo</span><span class="tag-split"><span data-i18n="seeYou">Cosa vedi tu</span><small data-i18n="seeYouSub">Dopo la post-produzione</small></span></span>
+        <span class="compare-handle" aria-hidden="true"><i>‹ ›</i></span>
+        <input type="range" min="0" max="100" value="50" data-i18n-aria="compareLabel" aria-label="Confronta prima e dopo">
+      </div>
+      <p class="compare-note" id="ba-note" data-i18n="splitNote" hidden>Lo stesso volo, prima e dopo la post-produzione: scelgo l’inquadratura, il movimento e il colore che fanno venire voglia di esserci.</p>
+    </section>
+
+    <!-- DOVE LAVORO -->
+    <section class="places" id="dove">
+      <header class="title reveal">
+        <p class="script" data-i18n="placesScript">Dove ti raggiungo</p>
+        <h2 data-i18n="placesTitle">Dove lavoro</h2>
+      </header>
+      <!-- Tre luoghi, una foto a rombo ciascuno. -->
+      <ul class="places-list">
+        <li class="place reveal">
+          <span class="place-img"><img src="assets/luoghi/canarie/lanzarote.jpg" alt="Lanzarote, Isole Canarie" loading="lazy"></span>
+          <h3 data-i18n="pl1Title">Canarie</h3>
+          <p data-i18n="pl1Text">La mia base. Da qui parto per ogni progetto, con il sole tutto l’anno.</p>
+        </li>
+        <li class="place reveal">
+          <span class="place-img"><img src="assets/luoghi/italia/tropea.jpg" alt="Tropea, Calabria" loading="lazy"></span>
+          <h3 data-i18n="pl2Title">Italia</h3>
+          <p data-i18n="pl2Text">Le mie origini. Torno spesso per raccontare strutture dalle città d’arte alle coste più amate.</p>
+        </li>
+        <li class="place reveal">
+          <span class="place-img"><img src="assets/luoghi/mondo/mondo.jpg" alt="Vista sul mare" loading="lazy"></span>
+          <h3 data-i18n="pl4Title">Nel mondo</h3>
+          <p data-i18n="pl4Text">Dalla giungla del Costa Rica alle risaie di Bali: se il progetto lo richiede, preparo lo zaino e parto per l’altra parte del mondo.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- CONTATTI -->
+    <section class="contact" id="contatti">
+      <div class="band-bg" data-parallax>
+        <img src="https://images.unsplash.com/photo-1533491759193-a5d9abc133d6?auto=format&fit=crop&w=2000&q=75" alt="" loading="lazy">
+      </div>
+      <div class="contact-shade"></div>
+      <div class="contact-inner">
+        <div class="contact-copy reveal from-left">
+          <p class="script" data-i18n="contactScript">Partiamo?</p>
+          <h2 data-i18n="contactTitle">Raccontami la tua struttura</h2>
+          <p data-i18n="contactText">Ogni progetto nasce su misura per la tua struttura. Raccontami di cosa hai bisogno e ti invierò una proposta personalizzata.</p>
+          <ul class="contact-services">
+            <li data-i18n="s1Title">Fotografia</li>
+            <li data-i18n="s2Title">Tour &amp; experience</li>
+            <li data-i18n="s3Title">Video per adv</li>
+            <li data-i18n="s4Title">Drone cinematic</li>
+          </ul>
+          <ul class="contact-links">
+            <li><a href="https://wa.me/34643058841" target="_blank" rel="noopener">Simone · +34 643 05 88 41</a></li>
+            <li><a href="mailto:mallamo.simone@gmail.com">mallamo.simone@gmail.com</a></li>
+            <li><a href="https://www.instagram.com/simonemallamo/" target="_blank" rel="noopener">Instagram · @simonemallamo</a></li>
+          </ul>
+        </div>
+        <!-- Il form invia la richiesta a Web3Forms, che la inoltra alla tua email (chiave in script.js). -->
+        <form class="contact-form reveal from-right" id="contact-form">
+          <p class="form-trap" hidden><label>Non compilare<input type="checkbox" name="botcheck" tabindex="-1"></label></p>
+          <label><span data-i18n="formName">Nome</span><input type="text" name="nome" autocomplete="name" required></label>
+          <label><span data-i18n="formProperty">Struttura e località</span><input type="text" name="struttura"></label>
+          <label><span data-i18n="formEmail">Email</span><input type="email" name="email" autocomplete="email" required></label>
+          <label><span data-i18n="formMessage">Di cosa hai bisogno?</span><textarea name="messaggio" rows="4" required></textarea></label>
+          <button class="btn" type="submit" data-i18n="formSubmit">Invia la richiesta</button>
+          <p class="form-note" data-i18n="formNote">Ti rispondo al più presto all'email che hai indicato.</p>
+          <p class="form-status" id="form-status" role="status" aria-live="polite" hidden></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="logo" href="#top">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 2 38 20 20 38 2 20z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 10 30 20 20 30 10 20z" fill="currentColor"/></svg>
+      <span>Simone Mallamo</span>
+    </a>
+    <p data-i18n="footerText">Your cinematic UGC creator</p>
+    <p>© <span id="year">2026</span> Simone Mallamo · <span data-i18n="footerRights">Tutti i diritti riservati</span> · <a href="https://www.instagram.com/simonemallamo/" target="_blank" rel="noopener">Instagram</a></p>
+  </footer>
+
+  <dialog class="project-dialog" id="project-dialog">
+    <button type="button" class="dialog-close" id="dialog-close" data-i18n-aria="close" aria-label="Chiudi">×</button>
+    <div class="slider">
+      <img id="slider-img" src="" alt="">
+      <iframe id="slider-video" title="Video del progetto" src="about:blank" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen hidden></iframe>
+      <button type="button" class="slider-btn prev" id="slider-prev" data-i18n-aria="prev" aria-label="Foto precedente">‹</button>
+      <button type="button" class="slider-btn next" id="slider-next" data-i18n-aria="next" aria-label="Foto successiva">›</button>
+      <span class="slider-count" id="slider-count"></span>
+    </div>
+    <div class="slider-thumbs" id="slider-thumbs"></div>
+    <div class="dialog-body">
+      <p class="script" id="dialog-place"></p>
+      <h2 id="dialog-title"></h2>
+      <p id="dialog-text"></p>
+      <dl>
+        <div><dt data-i18n="dialogWork">Lavoro svolto</dt><dd id="dialog-work"></dd></div>
+        <div><dt data-i18n="dialogTools">Strumenti</dt><dd id="dialog-tools"></dd></div>
+      </dl>
+    </div>
+  </dialog>
+
+  <script src="content.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
